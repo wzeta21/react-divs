@@ -1,8 +1,37 @@
 .App {
   text-align: center;
+  height: 100%;
+}
+.fontSize {
+  font-size: 150px;
 }
 
-.App-logo {
+.container{ 
+  height: 100%;
+}
+
+.cuadrante {
+  height: 50%;
+  width: 50%;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  /* display: inline-flex; */
+  
+}
+.button {
+  position: fixed;
+  top: 50%;
+}
+@media screen and (max-width: 720px) {
+  .cuadrante {
+    width: 100%;
+    height: 100%;
+    display:flex;
+  }
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +64,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
